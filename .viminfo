@@ -11,6 +11,8 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:q
+|2,0,1654879487,,"q"
 :wq
 |2,0,1654877313,,"wq"
 
@@ -25,14 +27,25 @@
 # Registers:
 
 # File marks:
-'0  1  13  ~/file1
-|4,48,1,13,1654877313,"~/file1"
+'0  1  0  ~/file2
+|4,48,1,0,1654879487,"~/file2"
+'1  1  13  ~/file1
+|4,49,1,13,1654877313,"~/file1"
 
 # Jumplist (newest first):
+-'  1  0  ~/file2
+|4,39,1,0,1654879487,"~/file2"
+-'  1  13  ~/file1
+|4,39,1,13,1654877313,"~/file1"
 -'  1  13  ~/file1
 |4,39,1,13,1654877313,"~/file1"
 
 # History of marks within files (newest to oldest):
+
+> ~/file2
+	*	1654879482	0
+	"	1	0
+	^	1	0
 
 > ~/file1
 	*	1654877309	0
